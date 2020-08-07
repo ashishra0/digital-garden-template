@@ -132,14 +132,16 @@ div .navbar-end a:hover {
   font-family: 'Red Hat Display';
   font-size: 30px;
   font-weight: 500;
-  color: rgb(84, 89, 119);
+  color: #000;
   padding: 1em 1em;
 }
 
-/* .h5-style span {
+.h5-style span {
+  background-color: antiquewhite;
   color: #000;
-  background-color: #ceb4ff;
-} */
+  border: 3.5px solid #000;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+}
 
 .tile {
   margin: 0px 1em 1em auto;
@@ -171,12 +173,14 @@ div .navbar-end a:hover {
 }
 
 .hr {
-  border: 0.1px solid rgb(200, 257, 241);
+  /* border: 0.1px solid rgb(200, 257, 241); */
+  /* border: 0.1px solid #000; */
   margin: 0 0 20px;
 }
 
 .content-hr {
-  border: 0.1px solid rgb(200, 257, 241);
+  /* border: 0.1px solid rgb(200, 257, 241); */
+  border: 0.1px solid #000;
   margin: 0 0 20px;
 }
 
@@ -189,12 +193,8 @@ div .navbar-end a:hover {
 } */
 
 .blog-vl {
-  border-right: 0.1pc solid #00c3ff;
-}
-
-.footer {
-  border-top: 2px solid rgb(200, 257, 241);
-  background-color: #fff;
+  /* border-right: 0.1pc solid #00c3ff; */
+  border-right: 0.1pc solid #000;
 }
 
 .blog-list {
@@ -215,7 +215,9 @@ div .navbar-end a:hover {
 }
 
 .topic-section {
+  border-top: 0.2em solid #000;
   background-color: #f4b71f;
+  border-bottom: 0.2em solid #000;
 }
 
 .social {
@@ -226,7 +228,8 @@ div .navbar-end a:hover {
 }
 
 .footer-section {
-  border-top: 0.1px solid rgb(200, 257, 241);
+  /* border-top: 0.1px solid rgb(200, 257, 241); */
+  border-top: 0.1px solid #000;
 }
 
 .copyright {
