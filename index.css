@@ -249,6 +249,7 @@ div .navbar-end a:hover {
 .search-header {
   text-align: center;
   font-size: 30px;
+  font-weight: 500;
 }
 
 .search-container {
