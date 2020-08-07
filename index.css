@@ -194,7 +194,7 @@ div .navbar-end a:hover {
 
 .blog-vl {
   /* border-right: 0.1pc solid #00c3ff; */
-  border-right: 0.1pc solid #000;
+  border-left: 0.1pc solid #000;
 }
 
 .blog-list {
@@ -244,4 +244,38 @@ div .navbar-end a:hover {
 .icon:hover {
   color: #00c3ff;
   transition: all 400ms ease-in-out;
+}
+
+.search-header {
+  text-align: center;
+  font-size: 30px;
+}
+
+.search-container {
+  padding-bottom: 20px;
+}
+
+.search-button {
+  border: 3.5px solid #000;
+}
+
+.input-search {
+  border: 3.5px solid #000;
+}
+
+.input-search::placeholder {
+  font-weight: 600;
+  color: #000;
+}
+
+@media (hover: none) {
+  .blog-vl {
+    border-left: none;
+  }
+}
+
+@media (pointer:coarse) {
+  .blog-vl {
+    border-left: none;
+  }
 }
