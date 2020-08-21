@@ -1,205 +1,323 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ashish Rao</title>
-  <!-- <link rel="stylesheet" href="debug.css" /> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Trade+Winds&family=Red+Hat+Display&
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ashish Rao</title>
+    <!-- <link rel="stylesheet" href="debug.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Trade+Winds&family=Red+Hat+Display&
     h5-stylefamily=Marcellus&Raleway:wght@200&family=Open+Sans:wght@300&display=swap5
-    rel=stylesheet" />
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  <script defer src="index.js"></script>
-  <link rel="stylesheet" href="index.css" />
-</head>
+    rel=stylesheet"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-<!-- Body -->
+  <!-- Body -->
 
-<body class="light">
-  <!-- <div class="container"> -->
-  <header>
-    <div class="nav">
-      <nav class="cta-navbar">
-        <a class="" href="http://localhost:8080">
-          <h4 class="logo">AR8</h4>
-        </a>
-        <div class="nav-links">
-          <div class="nav-link">
-            <a class="nav-item" href="#"><span class="navlink">My Story</span></a>
-            <a class="nav-item" href="#"><span class="navlink">About</span></a>
-            <a class="nav-item" href="#"><span class="navlink">Garden</span></a>
-            <a class="nav-item" href="#" id="dark-mode-toggle"><span class="navlink">Dark</span></a>
-            <a class="nav-item">
-              <i class="fa fa-search"></i>
-            </a>
+  <body class="light">
+    <!-- <div class="container"> -->
+
+    <!-- <header>
+      <div class="nav">
+        <nav class="cta-navbar">
+          <a class="" href="http://localhost:8080">
+            <h4 class="logo">AR8</h4>
+          </a>
+          <div class="nav-links">
+            <div class="nav-link">
+              <a class="nav-item" href="#"
+                ><span class="navlink">MY STORY</span></a
+              >
+              <a class="nav-item" href="#"
+                ><span class="navlink">ABOUT</span></a
+              >
+              <a class="nav-item" href="#"
+                ><span class="navlink">GARDEN</span></a
+              >
+              <a class="nav-item" href="#" id="dark-mode-toggle"
+                ><span class="navlink">DARK</span></a
+              >
+              <a class="nav-item">
+                <i class="fa fa-search"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header> -->
+
+    <header>
+      <h1 class="logo">
+        AR8.Tech
+      </h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav id="navbar">
+        <ul>
+          <li><a href="#">My Story</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">GARDEN</a></li>
+          <li><a href="#">DARK</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+
+    <!-- section -->
+    <!-- <section class="hero">
+      <div class="container px-6">
+        <div class="hero-body">
+        <div class="columns">
+          <div class="column is-half">
+            <h2 class="title h1-font">
+              THOUGHTS?
+            </h2>
           </div>
         </div>
-      </nav>
-    </div>
-  </header>
-  <!-- </div> -->
-
-  <!-- section -->
-
-  <section class="hero is-small hero-space">
-    <div class="container">
-      <div class="hero-body">
-        <h1 class="title h1-font">
-          Thoughts?
-        </h1>
         <div class="columns">
           <div class="column is-three-fifths">
             <h2 class="subtitle has-text-justified">
               This is my digital garden. There are drafts, ideas, fragments,
-              notes, blog posts and resources that I'm currently cultivating.
-              I often like to think of this as a personal knowledge base.
+              notes, blog posts and resources that I'm currently cultivating. I
+              often like to think of this as a personal knowledge base.
             </h2>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- section -->
-  <section class="section topic-section">
-    <div class="container topic-container">
-      <div class="columns">
-        <div class="column">
-          <span class="title topic-title">TOPICS</span>
-          <div class="tags topic-tags">
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
-            <span class="ctm-tag is-large is-light" onclick="Hello" style="cursor: pointer;">Digital Gardening
-            </span>
+      </div>
+    </section> -->
+
+    <section class="hero is-medium">
+      <div class="hero-body hero-space">
+        <div class="container px-6">
+          <h4 class="title h1-font">
+            THOUGHTS?
+          </h4>
+          <div class="columns">
+            <div class="column is-three-fifths">
+              <h2 class="subtitle has-text-justified">
+                This is my digital garden. There are drafts, ideas, fragments,
+                notes, blog posts and resources that I'm currently cultivating.
+                I often like to think of this as a personal knowledge base.
+              </h2>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <nav class="breadcrumb is-centered ctm-breadcrum" aria-label="breadcrumbs">
-        <ul>
-          <li>
-            <a href="#"><span class="crumb">BLOG POSTS</span></a>
-          </li>
-          <li>
-            <a href="#"><span class="crumb">NOTES</span></a>
-          </li>
-          <li>
-            <a href="#"><span class="crumb">RESOURCES</span></a>
-          </li>
-        </ul>
-      </nav>
-      <div class="columns">
-        <div class="column">
-          <h5 class="h5-style"><span>BLOG POSTS</span></h5>
-          <ul class="blog">
-            <li class="blog-list">
-              <span class="blog-title">Writing insert graphql queries</span>
-              <p>
-                //
-                <span class="datetime">Aug 04, 2020</span>
-              </p>
-            </li>
-            <li class="blog-list">
-              <span class="blog-title">Writing insert graphql queries</span>
-              <p>
-                //
-                <span class="datetime">Aug 04, 2020</span>
-              </p>
-            </li>
-            <li class="blog-list">
-              <span class="blog-title">Writing insert graphql queries</span>
-              <p>
-                //
-                <span class="datetime">Aug 04, 2020</span>
-              </p>
-            </li>
-            <li class="blog-list">
-              <span class="blog-title">Writing insert graphql queries</span>
-              <p>
-                //
-                <span class="datetime">Aug 04, 2020</span>
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <hr class="content-hr" />
-
-      <div class="columns">
-        <div class="column notes">
-          <h5 class="h5-style"><span>NOTES</span></h5>
-          <ul class="blog">
-            <li class="blog-list">
-              <span class="blog-title">wiki/architecture/architecture-x-media.md</span>
-              <p>
-                //
-                <span class="datetime">Aug 04, 2020</span>
-              </p>
-            </li>
-            <li class="blog-list">
-              <span class="blog-title">wiki/architecture/architecture-x-media.md</span>
-              <p>
-                //
-                <span class="datetime">Aug 04, 2020</span>
-              </p>
-            </li>
-            <li class="blog-list">
-              <span class="blog-title">wiki/architecture/architecture-x-media.md</span>
-              <p>
-                //
-                <span class="datetime">Aug 04, 2020</span>
-              </p>
-            </li>
-            <li class="blog-list">
-              <span class="blog-title">wiki/architecture/architecture-x-media.md</span>
-              <p>
-                //
-                <span class="datetime">Aug 04, 2020</span>
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <hr class="content-hr" />
-      <div class="columns">
-        <div class="column notes">
-          <h5 class="h5-style"><span>RESOURCES</span></h5>
-          <div class="tag-list tags">
-            <span class="resource-tag is-medium">MonogDB</span>
-            <span class="resource-tag is-medium">Redis</span>
-            <span class="resource-tag is-medium">Three.js</span>
+    </section>
+    <!-- section -->
+    <section class="section topic-section">
+      <div class="container px-6">
+        <div class="columns">
+          <div class="column">
+            <span class="title topic-title">TOPICS</span>
+            <div class="tags">
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+              <span
+                class="ctm-tag is-large is-light"
+                onclick="Hello"
+                style="cursor: pointer;"
+                >Digital Gardening
+              </span>
+            </div>
           </div>
         </div>
       </div>
-      <!-- <div class="columns is-multiline">
+    </section>
+
+    <section class="section">
+      <div class="container px-6">
+        <div
+          class="breadcrumb is-centered ctm-breadcrum"
+          aria-label="breadcrumbs"
+        >
+          <ul>
+            <li>
+              <a href="#"><span class="crumb">BLOG POSTS</span></a>
+            </li>
+            <li>
+              <a href="#"><span class="crumb">NOTES</span></a>
+            </li>
+            <li>
+              <a href="#"><span class="crumb">RESOURCES</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <h5 class="h5-style"><span>BLOG POSTS</span></h5>
+            <ul class="blog">
+              <li class="blog-list">
+                <span class="blog-title">Writing insert graphql queries</span>
+                <p>
+                  //
+                  <span class="datetime">Aug 04, 2020</span>
+                </p>
+              </li>
+              <li class="blog-list">
+                <span class="blog-title">Writing insert graphql queries</span>
+                <p>
+                  //
+                  <span class="datetime">Aug 04, 2020</span>
+                </p>
+              </li>
+              <li class="blog-list">
+                <span class="blog-title">Writing insert graphql queries</span>
+                <p>
+                  //
+                  <span class="datetime">Aug 04, 2020</span>
+                </p>
+              </li>
+              <li class="blog-list">
+                <span class="blog-title">Writing insert graphql queries</span>
+                <p>
+                  //
+                  <span class="datetime">Aug 04, 2020</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="content-hr" />
+
+        <div class="columns">
+          <div class="column notes">
+            <h5 class="h5-style"><span>NOTES</span></h5>
+            <ul class="blog">
+              <li class="blog-list">
+                <span class="blog-title"
+                  >wiki/architecture/architecture-x-media.md</span
+                >
+                <p>
+                  //
+                  <span class="datetime">Aug 04, 2020</span>
+                </p>
+              </li>
+              <li class="blog-list">
+                <span class="blog-title"
+                  >wiki/architecture/architecture-x-media.md</span
+                >
+                <p>
+                  //
+                  <span class="datetime">Aug 04, 2020</span>
+                </p>
+              </li>
+              <li class="blog-list">
+                <span class="blog-title"
+                  >wiki/architecture/architecture-x-media.md</span
+                >
+                <p>
+                  //
+                  <span class="datetime">Aug 04, 2020</span>
+                </p>
+              </li>
+              <li class="blog-list">
+                <span class="blog-title"
+                  >wiki/architecture/architecture-x-media.md</span
+                >
+                <p>
+                  //
+                  <span class="datetime">Aug 04, 2020</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="content-hr" />
+        <div class="columns">
+          <div class="column notes">
+            <h5 class="h5-style"><span>RESOURCES</span></h5>
+            <div class="tag-list tags">
+              <span class="resource-tag is-medium">MonogDB</span>
+              <span class="resource-tag is-medium">Redis</span>
+              <span class="resource-tag is-medium">Three.js</span>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="columns is-multiline">
           <div class="column is-one-quarter">
             <a href="">
               <div class="tile">
@@ -249,50 +367,58 @@
             </div>
           </div>
         </div> -->
-    </div>
-  </section>
+      </div>
+    </section>
 
-  <!-- Search section -->
-  <section class="section topic-section">
-    <div class="container search-container">
-      <h4 class="search-header">Looking for something?</h4>
-    </div>
+    <!-- Search section -->
+    <section class="section topic-section">
+      <div class="container search-container">
+        <h4 class="search-header">Looking for something?</h4>
+      </div>
+      <div class="container">
+        <div class="search-outer">
+          <div class="field is-grouped">
+            <p class="control is-expanded">
+              <input
+                class="input input-search"
+                type="text"
+                placeholder="Type here.."
+              />
+            </p>
+            <p class="control">
+              <a class="button search-button">
+                Search
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <!-- footer -->
+  <div class="section footer-section">
     <div class="container">
-      <div class="search-outer">
-        <div class="field is-grouped">
-          <p class="control is-expanded">
-            <input class="input input-search" type="text" placeholder="Type here.." />
-          </p>
-          <p class="control">
-            <a class="button search-button">
-              Search
-            </a>
-          </p>
+      <div class="footer-logo">
+        <span>Ashish Rao</span>
+        <h5 class="footer-subtitle subtitle has-text-white">
+          Thanks for stopping by!
+        </h5>
+      </div>
+      <div class="social">
+        <div class="copyright">
+          &#169; 2020 - present Ashish Rao. All Rights Reserved.
+        </div>
+        <div class="social-icon">
+          <a
+            href="https://linkedin.com"
+            class="fab fa-linkedin fa-lg fa-fw icon"
+          ></a>
+          <a class="fab fa-twitter fa-lg fa-fw icon"></a>
+          <a class="fab fa-github fa-lg fa-fw icon"></a>
+          <a class="fab fa-medium fa-lg fa-fw icon"></a>
         </div>
       </div>
     </div>
-  </section>
-</body>
-
-<!-- footer -->
-<div class="section footer-section">
-  <div class="footer-logo">
-    <span>Ashish Rao</span>
-    <h5 class="footer-subtitle subtitle has-text-white">
-      Thanks for stopping by!
-    </h5>
   </div>
-  <div class="social">
-    <div class="copyright">
-      &#169; 2020 - present Ashish Rao. All Rights Reserved.
-    </div>
-    <div class="social-icon">
-      <a href="https://linkedin.com" class="fab fa-linkedin fa-lg fa-fw icon"></a>
-      <a class="fab fa-twitter fa-lg fa-fw icon"></a>
-      <a class="fab fa-github fa-lg fa-fw icon"></a>
-      <a class="fab fa-medium fa-lg fa-fw icon"></a>
-    </div>
-  </div>
-</div>
-
 </html>
