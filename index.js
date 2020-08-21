@@ -9,7 +9,7 @@ const navbar = document.querySelector('#navbar');
 const enableDarkMode = () => {
   // 1. add class dark to the body
   document.body.classList.add('dark');
-  darkModeToggle.innerHTML = 'Light';
+  darkModeToggle.innerHTML = 'LIGHT';
   // 2. update dark in the localstorage
   localStorage.setItem('dark', 'enabled');
 };
@@ -21,7 +21,7 @@ if (darkMode === 'enabled') {
 const disableDarkMode = () => {
   // 1. add class dark to the body
   document.body.classList.remove('dark');
-  darkModeToggle.innerHTML = 'Dark';
+  darkModeToggle.innerHTML = 'DARK';
   // 2. update dark in the localstorage
   localStorage.setItem('dark', null);
 };
