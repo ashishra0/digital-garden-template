@@ -56,7 +56,7 @@
       </div>
     </header> -->
 
-    <header>
+    <!-- <header>
       <h1 class="logo">
         AR8.Tech
       </h1>
@@ -66,13 +66,52 @@
           <li><a href="#">My Story</a></li>
           <li><a href="#">ABOUT</a></li>
           <li><a href="#">GARDEN</a></li>
-          <li><a href="#">DARK</a></li>
+          <li><a href="#" id="dark-mode-toggle">DARK</a></li>
         </ul>
       </nav>
       <label for="nav-toggle" class="nav-toggle-label">
         <span></span>
       </label>
-    </header>
+    </header> -->
+
+    <nav
+      class="navbar cta-navbar"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <h4 class="logo">AR8</h4>
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="nav-item" href="#"
+              ><span class="navlink">MY STORY</span></a
+            >
+            <a class="nav-item" href="#"><span class="navlink">ABOUT</span></a>
+            <a class="nav-item" href="#"><span class="navlink">GARDEN</span></a>
+            <a class="nav-item" href="#" id="dark-mode-toggle"
+              ><span class="navlink">DARK</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <!-- section -->
     <!-- <section class="hero">
@@ -98,7 +137,7 @@
       </div>
     </section> -->
 
-    <section class="hero is-medium">
+    <section class="hero">
       <div class="hero-body hero-space">
         <div class="container px-6">
           <h4 class="title h1-font">
