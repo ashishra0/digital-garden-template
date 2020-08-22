@@ -132,7 +132,7 @@ html {
   margin-left: 10px;
 }
 
-header {
+/* header {
   background: var(--bg);
   position: absolute;
   z-index: 999;
@@ -219,7 +219,7 @@ nav a:hover {
 
 .nav-toggle-label span::after {
   top: 7px;
-}
+} */
 
 /* .logo:hover {
   font-weight: 600;
@@ -261,11 +261,12 @@ nav a:hover {
 }
 
 .cta-navbar {
-  padding-bottom: 20px;
-  text-decoration: none;
+  /* padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
+  box-shadow: none;
+  background-color: #000;
 }
 
 .nav-links {
@@ -629,7 +630,7 @@ div .nav-link .nav-item a:hover {
   color: var(--light-orange);
 }
 
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
   .nav-toggle-label {
     display: none;
   }
@@ -659,4 +660,4 @@ div .nav-link .nav-item a:hover {
     margin-left: 2em;
     margin-bottom: 0;
   }
-}
+} */
