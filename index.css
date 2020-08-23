@@ -266,7 +266,7 @@ nav a:hover {
   justify-content: space-between;
   align-items: center; */
   box-shadow: none;
-  background-color: #000;
+  background-color: var(--bg);
 }
 
 .nav-links {
