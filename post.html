@@ -16,4 +16,113 @@
     <script defer src="index.js"></script>
     <link rel="stylesheet" href="index.css" />
   </head>
+  <body class="light">
+    <nav
+      class="navbar cta-navbar"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="http://localhost:8080/">
+          <h4 class="logo">AR8</h4>
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="nav-item" href="#"
+              ><span class="navlink">MY STORY</span></a
+            >
+            <a class="nav-item" href="#"><span class="navlink">ABOUT</span></a>
+            <a class="nav-item" href="#"><span class="navlink">GARDEN</span></a>
+            <a class="nav-item" href="#" id="dark-mode-toggle"
+              ><span class="navlink">DARK</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container post-container">
+      <h4 class="has-text-centered">
+        <span class="post-title"
+          >Monitoring And Orchestrating Your Microservices Landscape using
+          Workflow Automation (Part 3 of 7)</span
+        >
+      </h4>
+      <div class="author-container">
+        <p>
+          <span class="author">August 4th, 2020</span>
+        </p>
+      </div>
+
+      <div class="content">
+        <p class="lead typo has-text-justified">
+          Dropbox syncs petabytes of data every day across millions of desktop
+          clients. It is vital that we constantly improve the sync experience
+          for our users, to increase our users’ productivity in their everyday
+          lives. We also constantly strive to better leverage our
+          infrastructure, increasing Dropbox’s operational efficiency. Because
+          the files themselves are being sent to and from Dropbox during sync,
+          we can leverage redundancies and recurring patterns in common file
+          formats to send files more tersely and consequentially improve
+          performance. Modern compression techniques identify and persist these
+          redundancies and patterns using short bit codes, to transfer large
+          files as smaller, losslessly compressed, files. Thus, compressing
+          files before syncing them means less
+        </p>
+      </div>
+
+      <hr class="content-hr" />
+
+      <div class="article-tags">
+        <span class="tag-typo">#TAGS</span>
+        <div class="tags are-medium">
+          <span class="ctm-tag ctm-tag-2">#Medium</span>
+          <span class="ctm-tag ctm-tag-2">#Medium</span>
+          <span class="ctm-tag ctm-tag-2">#Medium</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post Container -->
+  </body>
+
+  <div class="section footer-section footer-section-two">
+    <div class="container">
+      <div class="footer-logo">
+        <span>Ashish Rao</span>
+        <h5 class="footer-subtitle subtitle has-text-white">
+          Thanks for stopping by!
+        </h5>
+      </div>
+      <div class="social">
+        <div class="copyright">
+          &#169; 2020 - present Ashish Rao. All Rights Reserved.
+        </div>
+        <div class="social-icon">
+          <a
+            href="https://linkedin.com"
+            class="fab fa-linkedin fa-lg fa-fw icon"
+          ></a>
+          <a class="fab fa-twitter fa-lg fa-fw icon"></a>
+          <a class="fab fa-github fa-lg fa-fw icon"></a>
+          <a class="fab fa-medium fa-lg fa-fw icon"></a>
+        </div>
+      </div>
+    </div>
+  </div>
 </html>
